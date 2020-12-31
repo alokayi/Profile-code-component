@@ -1,0 +1,117 @@
+:root {
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Kumbh Sans',sans-serif;
+  color: hsl(0, 11%, 12%);
+  overflow: hidden;
+}
+
+section {
+  background-color: hsl(185, 75%, 39%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card {
+  width: 350px;
+  border-radius: 20px;
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.card-header {
+  background-image: url(images/bg-pattern-card.svg);
+  height: 150px;
+}
+
+img {
+  border-radius: 50%;
+  border: 5px solid white;
+  margin: -50px auto 20px;
+}
+
+.card-body {
+  font-size: .8em;
+}
+.name-age {
+  margin-bottom: 20px;
+}
+
+.age{
+  font-weight: normal;
+  color: hsl(0, 0%, 59%);
+  padding: 10px;
+}
+
+.city {
+  font-weight: normal;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 30px;
+}
+
+.card-footer {
+  border-top: 1px solid hsl(0, 0%, 59%);
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.meta {
+  color: hsl(0, 0%, 59%);
+  font-weight: normal;
+}
+
+.value {
+  padding: 10px;
+}
+
+.circles img{
+border: 0px;
+width: 800px;
+}
+
+.c1 {
+  position: absolute;
+  top: -300px;
+  left: -100px;
+}
+.c2 {
+  position: absolute;
+bottom: -475px;
+right: -120px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
